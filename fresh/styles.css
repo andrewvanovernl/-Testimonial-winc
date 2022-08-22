@@ -1,0 +1,50 @@
+.wrapper {
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 10px;
+}
+.wrapper .header {
+  background-color: white;
+  border: 1px solid rgb(221, 215, 215);
+}
+.wrapper .footer {
+  background-color: #686de0;
+  height: 100px;
+  width: 250px;
+}
+.wrapper .footer img {
+  max-width: 100%;
+  border-radius: 50px;
+  max-height: 100%;
+  position: relative;
+  top: -197px;
+  border: 3px solid white;
+}
+
+.wrapper > div {
+  background-color: rgba(112, 47, 47, 0.8);
+  text-align: center;
+  padding: 20px;
+  margin: 0px;
+  height: 250px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 5px 5px rgb(172, 181, 230);
+  border-radius: 3px;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.header p {
+  color: black;
+}
+
+.header {
+  border: 1px solid rgb(221, 215, 215);
+}/*# sourceMappingURL=styles.css.map */
